@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        //Escreva um programa para ler 2 valores inteiros informados pelo usuário e uma das seguintes operações a serem executadas (codificada da seguinte forma: 1. Adição, 2. Subtração, 3. Divisão, 4. Multiplicação).O programa deve calcular e escrever o resultado dessa operação sobre os dois valores lidos. 
+
+        var p_valor=parseFloat(prompt("Insira o primeiro valor:  "));
+        var s_valor=parseFloat(prompt("Insira o segundo valor: "));
+
+        var escolha=parseInt(prompt("Escolha uma opção  1. Adição, 2. Subtração, 3. Divisão, 4. Multiplicação "));
+
+        var soma_adição= p_valor + s_valor;
+        var soma_subtraçao= p_valor - s_valor;
+        var soma_divisao= p_valor / s_valor
+        var soma_multiplicaçao= p_valor * s_valor
+
+        if(escolha==1){
+            alert("Sua adição é: " + soma_adição );
+
+        }
+
+        else if(escolha==2){
+            alert("Sua subtração é: " + soma_subtraçao)
+
+        }
+        else if(escolha==3){
+            alert("Sua divisão é: " + soma_divisao)
+        }
+        else if (escolha==4){
+            alert("Sua multiplicação é: " + soma_multiplicaçao)
+        }
+        
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

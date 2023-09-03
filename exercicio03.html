@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 03</title>
+
+    <script>
+        //Faça um programa para ler 3 valores(considere que não serão informados valores iguais) e escrever o maior deles.
+
+        alert("Informe 3 números, mas não informe números iguais");
+        
+        var primeiro = parseFloat(prompt("Insira o Primeiro valor: "));
+        var segundo = parseFloat(prompt("Insira o Segundo valor: "));
+        var terceiro = parseFloat(prompt("Insira o Terceiro valor: "));
+
+        if(primeiro > segundo && primeiro > terceiro){
+            alert("O número maior é : " + primeiro);
+        }
+        else if(segundo > primeiro && segundo >terceiro){
+            alert("O número maior é : " + segundo);
+        }
+        else if(terceiro > segundo && terceiro > primeiro){
+            alert("O número maior é : " + terceiro);
+        }
+        else
+        alert("Não Informe Números iguais")
+
+
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

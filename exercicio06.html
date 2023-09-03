@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        //Faça um programa que receba quatro valores informados pelo usuário, mas informe somente o primeiro, o último e o maior de todos eles (considere que todos os números informados serão diferentes)
+
+
+        var p_valor = parseFloat(prompt("digite o primeiro valor: "));
+        var s_valor = parseFloat(prompt("digite o segundo valor: "));
+        var t_valor = parseFloat(prompt("digite o terceiro valor: "));
+        var q_valor = parseFloat(prompt("digite o quarto valor: "));
+
+            alert("Primeiro valor informado: " + p_valor);
+            alert("o ultimo valor: " + q_valor);
+
+
+        var maiorValor = Math.max(p_valor, s_valor, t_valor, q_valor);
+        
+        
+        var éMaiorValor1 = p_valor === maiorValor;
+        var éMaiorValor2 = s_valor === maiorValor;
+        var éMaiorValor3 = t_valor === maiorValor;
+        var éMaiorValor4 = q_valor === maiorValor;
+
+
+        alert("O primeiro valor é o maior: " + éMaiorValor1);
+        alert("O segundo valor é o maior: " + éMaiorValor2);
+        alert("O terceiro valor é o maior: " + éMaiorValor3);
+        alert("O quarto valor é o maior: " + éMaiorValor4);
+        
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

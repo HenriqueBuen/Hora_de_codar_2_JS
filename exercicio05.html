@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 05</title>
+
+    <script>
+        //Faça um programa que leia 6 valores informados pelo usuário, calcule, exiba os números informados e escreva a média aritmética desses valores lidos.
+
+        alert("Informe 3 números, mas não informe números iguais");
+        
+        var soma = 0;
+
+        for (var i = 1; i <= 6; i++) {
+            var valor = parseInt(prompt("Digite o " + i + "º valor: "));
+            soma += valor;
+        }
+        var media = soma / 6;
+
+        alert("Números Informados");
+
+        for (var i = 1; i <= 6; i++){
+            alert("Valor " + i + ": " + parseFloat(prompt("Digite o " + i + "º valor: ")));
+        }
+
+        alert("Média aritméticas" + media);
+
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

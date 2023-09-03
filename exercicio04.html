@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 04</title>
+
+    <script>
+        //Faça um programa  que leia 3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores
+
+        alert("Informe 3 números, mas não informe números iguais");
+        
+        var primeiro = parseFloat(prompt("Insira o Primeiro valor: "));
+        var segundo = parseFloat(prompt("Insira o Segundo valor: "));
+        var terceiro = parseFloat(prompt("Insira o Terceiro valor: "));
+
+        var soma = primeiro + segundo ;
+        var soma2 = segundo + primeiro ;
+        var soma3 = terceiro + segundo;
+
+        if(primeiro > segundo && primeiro > terceiro){
+            alert("O número maior é : " + soma);
+        }
+        else if(segundo > primeiro && segundo >terceiro){
+            alert("O número maior é : " + soma2);
+        }
+        else if(terceiro > segundo && terceiro > primeiro){
+            alert("O número maior é : " + soma3);
+        }
+        else
+        alert("Não Informe Números iguais")
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
